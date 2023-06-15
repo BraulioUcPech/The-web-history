@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(115, 159, 218);
+}
+
+nav{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(169, 233, 212);
+}
+
+main{
+    width: 1000px;
+    height: 500px;
+    background-color: bisque;
+}
+
+footer{
+    width: 1000px;
+    height: 50px;
+    background-color: azure;
+}
+
+section#banner{
+    width: 800px;
+    height: 200px;
+    float: right;
+    background-color:rgb(91, 144, 194);
+}
+section#logo {
+    width: 200px;
+    height: 200px;
+    float: right;
+    background-color: rgb(115, 159, 218);
+}
+
+article {
+    width: 0;
+    height: 700px;
+    float: left;
+    background-color: rgb(73, 65, 65);
+}
+
+section#asidederecha {
+    width: 300px;
+    height: 500px;
+    float: right;
+    background-color: rgb(168, 96, 235);
+}

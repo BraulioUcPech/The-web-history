@@ -1,0 +1,137 @@
+/* Estilos base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+th,td {
+    border: 6px solid rgb(216, 38, 38);
+    padding: 10px;
+    text-align: center;
+    border-style:dashed;
+    font-size: 30px;
+    border: none;
+}
+
+th {
+    background-color: #4583b6;
+    color: #fff;
+    font-size: 30px;
+}
+
+td a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+td h3{
+    margin-top: 10px;
+    font-size: 25px;
+}
+ td img {
+     width: 100%;
+     max-width: 700px;
+     height: auto;
+     border-radius: 10px;
+     margin-top: 10px;
+ }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+iframe {
+    border: none;
+    width: 95%;
+    height: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+footer {
+    font-family: monospace;
+    font-size: 20px;
+}
+hr{
+    border: 5px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries para tamaños de pantalla */
+@media only screen and (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas */
+    h1 {
+        font-size: 36px;
+    }
+
+    th,
+    td {
+        font-size: 24px;
+    }
+
+    iframe {
+        height: 400px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Estilos para pantallas aún más pequeñas */
+    h1 {
+        font-size: 24px;
+    }
+
+    th,
+    td {
+        font-size: 18px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}

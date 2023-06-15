@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form INFORMACION SOBRE EL PRODUCTO</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h2>Informacion sobre el producto</h2>
+
+        <fieldset>
+            <form action="">
+                <h2>Datos basicos</h2>
+                <label for="">Nombre</label><br>
+                <input type="text">
+                <label for="">Description</label><br>
+                <textarea name="texto" id="" cols="30" rows="10"></textarea><br>
+                <label for="">Foto</label>
+                <input type="text">
+                <label for="files">Select files:</label>
+                <input type="file" id="files" name="files" multiple><br>
+
+                <input type="checkbox" name="" id="" checked>Añadir contador de visitas
+
+            </form>
+        </fieldset>
+<br>
+<br>
+        <fieldset>
+            <form action="">
+                <h2>Datos economicos</h2>
+                <label for="">Precio</label>
+                <input type="text">€
+                <select name="menu" id="">
+                    <option value="">4%</option>
+                    <option value="">5%</option>
+                    <option value="">6%</option>
+                    <option value="">7%</option>
+                    <option value="">8%</option>
+                </select><br>
+                <label for="">promocion</label><br>
+                <input type="radio" name="boton" value="1">Ninguno<br>
+                <input type="radio" name="boton" value="2">Transporte gratuito<br>
+                <input type="radio" name="boton" value="3">Descuento 5%
+            </form><br>
+
+        </fieldset>
+
+
+        <br>
+        <br>
+        <br>
+
+        <h2>Formulario de alta</h2>
+
+        <fieldset>
+            <form action="">
+                <h3>Nombre y apellidos <span style="color: red;">*</span></h3>
+                <input type="text"><br>
+                <label for="">Nombre</label><br>
+                <input type="text"><br>
+                <label for="">Primer apellido</label><br>
+                <input type="text"><br>
+                <label for="">Segundo apellido</label><br>
+
+
+                <h2>Email <span style="color: red;">*</span></h2>
+                <input type="text"><br><br>
+                <input type="submit" value="Enviar">
+                <br>
+                <br>
+            </form>
+
+            <style>
+                .form-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                float: right;
+            }
+
+            .form-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            .form-row label {
+                margin-right: 10px;
+            }
+
+            .form-row input {
+                margin-right: 10px;
+            }
+        </style>
+
+                <div class="form-container">
+                    <form action="">
+                        <h2>Dirección <span style="color: red;">*</span></h2>
+
+                        <div class="form-row">
+                            <label for="">Calle, número, piso, puerta</label>
+                            <input type="text" name="" id="">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="">Código postal</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="">Municipio</label>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="">Provincia</label>
+                            <select name="menu">
+                                <option value="0">...</option>
+                                <option value="1">Uno</option>
+                                <option value="2">Dos</option>
+                                <option value="3">Tres</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="">País</label>
+                            <select name="menu">
+                                <option value="0">...</option>
+                                <option value="1">Uno</option>
+                                <option value="2">Dos</option>
+                                <option value="3">Tres</option>
+                            </select>
+                        </div>
+                    </form>
+
+                    <form action="">
+                        <h2>Teléfono <span style="color: red;">*</span></h2>
+
+                        <div class="form-row">
+                            <label for="">Fijo</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="">Móvil</label>
+                            <input type="text">
+                        </div>
+                    </form>
+                </div>
+
+
+
+        </fieldset>
+
+
+
+        <script src="" async defer></script>
+
+        <style>
+
+        </style>
+    </body>
+</html>

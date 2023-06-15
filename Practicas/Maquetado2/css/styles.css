@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+html{
+    background-color: rgb(250, 175, 13);
+}
+
+body{
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 750px;
+    height: 250px;
+    background-color: rgb(166, 221, 102);
+
+}
+#banner{
+    width: 500px;
+    height: 230px;
+    background-color: coral;
+    margin: 10px;
+    float: left;
+
+}
+#logo{
+    width: 210px;
+    height: 230px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    float: right;
+}
+
+nav{
+    width: 750px;
+    height: 50px;
+    background-color: brown;
+}
+
+main{
+    width: 750px;
+    height: 400px;
+    background-color: yellow;
+}
+article{
+    width: 450px;
+    height: 380px;
+    margin: 10px;
+    float: left;
+    background-color: rgb(90, 182, 90);
+}
+#aside1{
+    width: 260px;
+    height: 380px;
+    margin: 10px;
+    float: right;
+    background-color: black;
+}
+
+footer{
+    width: 750px;
+    height: 50px;
+    background-color: rgb(127, 103, 214);
+    padding: 9px 0px;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000;
+}
+
+header{
+    width: 1479px;
+    height: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    align-content: center;
+   padding: 10px;
+}
+
+nav{
+    width: 1499px;
+    height: 50px;
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+}
+
+a{
+    font-size: 20px;
+    margin: 15px;
+}
+section{
+    width: 1200px;
+    height: 600px;
+    background-color: brown;
+    float: left;
+   
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.textoaricle{
+    width: 1080px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color:antiquewhite;
+}
+div{
+    width: 1080px;
+    height: 240px;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(42, 165, 134);
+    text-align: center;
+}
+img{
+    width: 50%;
+    height: 100%;
+    margin: 1px;
+
+}
+article{
+    width: 1120px;
+    padding: 16px;
+    margin: 20px;
+    height: 450px;
+    background-color: aquamarine;
+}
+
+aside{
+    width: 298px;
+    height: 600px;
+    float: right;
+    background-color: red;
+    text-align: center;
+    
+}
+.publicidad{
+    width: 100px;
+    height: 50px;
+    background-color: coral;
+    
+}
+.imgbanner{
+    width: 100px;
+        height: 50px;
+        background-color: coral;
+}
+.Testimonios{
+    width: 100px;
+        height: 50px;
+        background-color: coral;
+}
+.texto{
+    width: 100px;
+        height: 50px;
+    background-color: coral;
+}
+
+footer{
+    width: 1479px;
+    
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px 10px;
+    
+}
+
+

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 750px;
+    height: 250px;
+    background-color: rgb(115, 159, 218);
+}
+
+nav{
+    width: 750px;
+    height: 50px;
+    background-color: rgb(169, 233, 212);
+}
+
+main{
+    width: 750px;
+    height: 400px;
+    background-color: bisque;
+}
+
+footer{
+    width: 750px;
+    height: 50;
+    background-color: azure;
+}
+
+section#banner{
+    width: 500px;
+    height: 250px;
+    float: left;
+    background-color:rgb(91, 144, 194);
+}
+section#logo {
+    width: 250px;
+    height: 125px;
+    float: left;
+    background-color: rgb(115, 159, 218);
+}
+section#login {
+    width: 250px;
+    height: 125px;
+    float: left;
+    background-color: rgb(81, 126, 185);
+}
+article {
+    width: 500;
+    height: 400px;
+    float: left;
+    background-color: rgb(73, 65, 65);
+}
+section#asideizquierda{
+    width: 100px;
+    height: 400px;
+    float: left;
+    background-color: rgb(160, 81, 233);
+}
+section#asidederecha {
+    width: 100px;
+    height: 400px;
+    float: right;
+    background-color: rgb(168, 96, 235);
+}

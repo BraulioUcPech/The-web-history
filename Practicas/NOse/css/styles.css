@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(143, 143, 143);
+}
+
+.menucabecera{
+    background-color: orange;
+    height: 40px;
+    text-align: right;
+    padding: 5px 5px 5px 0;
+}
+
+.menucabecera a:link, a:visited{
+    border-right: #ff6600 1px solid;
+    padding-right: 8px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.menucabecera a:hover{
+    color: black;
+}
+
+.cabecera{
+    background-color: orange;
+    height: 120px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+.cabecera h5{
+    color: brown;
+    font-weight: bold;
+}
+.menuprincipal{
+    background-color: brown;
+    height: 40px;
+
+}
+
+.menu{
+    list-style: none;
+    font: 85% Arial;
+}
+.mh{
+    float: left;
+    padding: 0 0 0 1px;
+    margin: 0;
+}
+.mh li{
+    float: left;
+    border-right: 1px solid white;
+    height: 40px;
+}
+
+.menu li a:link, a:visited{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 6px 20px;
+    height: 40px;
+}
+.menu li a:hover{
+    color: black;
+    background: rgb(189, 158, 101);
+    height: 40px;
+}
+.menu li a.activo{
+    color: black;
+    background-color: orange;
+    height: 40px;
+}
+.bannerimg{
+    background: white;
+    text-align: center;
+    border-bottom: 3px solid orange;
+
+}
+.textobanner{
+    background:white;
+    text-align: left;
+    color: orange;
+    height: 303px;
+    border-bottom: 3px solid orange;
+}
+
+.textobanner p{
+    margin: 30px;
+}
+

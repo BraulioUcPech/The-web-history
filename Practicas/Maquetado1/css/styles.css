@@ -1,0 +1,94 @@
+* {
+    margin: 10px 0px;
+    padding: 0%;
+}
+
+html{
+    background-color: rgb(250, 175, 13);
+}
+
+body{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+nav{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 216, 129);
+}
+#box1, #box2, #box3, #box4, #box5 {
+    width: 150px;
+    height: 80px;
+    float: left;
+    background-color: #ee9f72;
+    margin: 10px;
+}
+
+
+header{
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(166, 221, 102);
+
+}
+
+.banner-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.banner {
+    width: 800px;
+    height: 260px;
+    background-color: rgb(225, 241, 100);
+    margin: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 180px;
+    height: 71px;
+    background-color: rgb(84, 199, 151);
+    margin: 10px ;
+}
+
+
+main{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(91, 207, 197);
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    flex-grow: 1;
+    background-color: rgb(96, 142, 202);
+    margin: 10px;
+}
+#asideizquierda,#asidederecha {
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(107, 187, 233);
+}
+
+
+
+
+footer{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(127, 103, 214);
+    margin-top: 25px;
+    padding: 9px 0px;
+}
