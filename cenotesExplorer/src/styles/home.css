@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Inter;
+}
+h2{
+    font-size: 32px;
+}
+h2 b{
+    color: #B28044;
+}
+h3{
+    font-size: 22px;
+}
+
+header{ 
+    height: 100px;
+    width: 100%;
+}
+button{
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 300;
+}
+.headerChild{
+    width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    align-items: center;
+    height: 100px;
+}
+.navigationAncla{
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+}
+
+body{
+    background-color: #111111;
+}
+
+.hero{
+    width: 100%;
+}
+.imgMainWidth{
+    width: 100%;
+    height: 50vh;
+    background-image: url('../img/mainImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgMainWidth div{
+    width: 1400px;
+}
+.imgMainWidth div h4{
+    width: 330px;
+}
+.imgBottom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imgBottomHero{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.cardInfoSecondPart{
+    width: 1400px;
+    padding: 40px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1C1C1C;
+    align-items: center;
+}
+.cardInfoSecondPart div{
+    padding: 20px 20px 20px 40px;
+    position: relative;
+}
+.cardInfoSecondPart div:last-child{
+    border-left: 1px solid #B28044;
+}
+.cardInfoSecondPart h4{
+    font-weight: 300;
+    margin-top: 10px;
+}
+.cardInfoSecondPart button{
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #B28044;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+}
+
+.infoCenotes{
+    width: 1400px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.cenotesPadre{
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat( 3, 400px);
+    margin: auto;
+    justify-content: center;
+}
+.cenoteCardd{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    /* background-image: url(../img/imgPruebaCuadrada.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.cenoteCardd img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.cardEventoInfo{
+
+    margin-bottom: 20px;
+}
+.cenoteCardd button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #B28044;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.cenoteCardd button:hover{
+    background-color: rgb(0, 0, 0, 0.2);
+
+}
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #1C1C1C;
+    height: 430px;
+    display: flex;
+    justify-content:  center;
+}
+.footerChild{
+    width: 1400px;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+}
+.footerChild img{
+    width: 220px;
+}
+.footerChild h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+.inicioLoginIndex{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
